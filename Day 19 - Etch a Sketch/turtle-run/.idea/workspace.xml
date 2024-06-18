@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b060d6c-5de0-40a2-86f9-93669a52c590" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Day 18/day-18-start/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day 18/day-18-start/random_walk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day 18/day-18-start/spirograph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day 18/hirst-painting/color.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day 18/hirst-painting/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day 18/hirst-painting/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../etch-a-sketch-app/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2hsHrJvIREg7Q4EQxgc9B06J43l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b060d6c-5de0-40a2-86f9-93669a52c590" name="Changes" comment="" />
+      <created>1718376061916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718376061916</updated>
+    </task>
+    <servers />
+  </component>
+</project>
