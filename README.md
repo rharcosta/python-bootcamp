@@ -1,8 +1,8 @@
 # python-bootcamp
 
-Descrição do meu projeto.
+Course of Python Development provided by The AppBrewery.
 
-## Table of Days, Class and Projects
+## Table of Days, Classes and Projects
 
 | Day    | Class                                    | Project                         |
 |--------|------------------------------------------|---------------------------------|
