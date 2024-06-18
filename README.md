@@ -22,3 +22,9 @@ Descrição do meu projeto.
 | Day 14 | Higher Lower Game                        | Higher Lower Game               |
 | Day 15 | Setup Local Environment                  | Coffee Machine                  |
 | Day 16 | Object Oriented Programming              | Coffee Machine 2.0              |
+| Day 17 | The benefits of OOP                      | The Quiz Project                |
+| Day 18 | Turtle Graphics                          | Hirst Painting                  |
+| Day 19 | Instances, State & Higher Order          | Etch a Sketch                   |
+| Day 20 | Snake Game                               | Snake Game Pt. 1                |
+| Day 21 | Inheritance & List Slicing               | Snake Game Pt. 2                |
+ 
