@@ -1,6 +1,6 @@
 # python-bootcamp
 
-Course of Python Development provided by The AppBrewery.
+Course of 100 Days of Python Development.
 
 ## Table of Days, Classes and Projects
 
