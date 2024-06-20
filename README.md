@@ -27,4 +27,6 @@ Course of 100 Days of Python Development.
 | Day 19 | Instances, State & Higher Order          | Etch a Sketch                   |
 | Day 20 | Snake Game                               | Snake Game Pt. 1                |
 | Day 21 | Inheritance & List Slicing               | Snake Game Pt. 2                |
+| Day 22 | Build Pong                               | Pong: The Famous Arcade Game    |
+| Day 23 | Build The Turtle Crossing Capstone       | Turtle Crossing                 |
  
