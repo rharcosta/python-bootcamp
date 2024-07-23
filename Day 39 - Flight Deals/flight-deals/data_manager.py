@@ -7,7 +7,7 @@ from requests.auth import HTTPBasicAuth
 
 # load environment variables from .env file
 load_dotenv()
-
+sheety_endpoint = "https://api.sheety.co/dd96cfff50d4f9bdd4ec6ee945041756/flightDeals/prices"
 
 class DataManager:
 
@@ -15,7 +15,6 @@ class DataManager:
         self.user = os.environ["USERNAME"]
         self.password = os.environ["PASSWORD"]
         self.auth = HTTPBasicAuth(self.user, self.password)
-        self.sheety_endpoint = os.environ["SHEETY_ENDPOINT"]
         self.destination_data = {}
 
         self.headers = {
@@ -24,7 +23,7 @@ class DataManager:
 
     def get_destination_data(self):
         try:
-            response = requests.get(url=self.sheety_endpoint, auth=self.auth, headers=self.headers)
+            response = requests.get(url=sheety_endpoint, auth=self.auth, headers=self.headers)
             response.raise_for_status()
             data = response.json()
             if "errors" in data:
@@ -39,6 +38,6 @@ class DataManager:
     def update_destination_code(self):
         for city in self.destination_data:
             new_data = {"price": {"iataCode": city["iataCode"]}}
-            response = requests.put(url=f"{self.sheety_endpoint}/{city['id']}",
+            response = requests.put(url=f"{sheety_endpoint}/{city['id']}",
                                     auth=self.auth, json=new_data)
             print(response.text)

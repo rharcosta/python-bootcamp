@@ -1,8 +1,11 @@
 import pandas as pd
 import smtplib
+import os
+from dotenv import load_dotenv
 from random import randint
 from datetime import datetime
 
+load_dotenv()
 file = pd.read_csv("birthdays.csv")
 
 today = (datetime.now().day, datetime.now().month)
@@ -17,8 +20,8 @@ if today in dictionary:
         new_letter = read_letter.replace("[NAME]", birthday_person["name"])
         print(new_letter)
 
-        my_email = "t1838285@gmail.com"
-        password = "kkhosqztttzpmlmx"
+        my_email = os.environ["EMAIL"]
+        password = os.environ["PASSWORD"]
 
         with smtplib.SMTP("smtp.gmail.com") as connection:
             connection.starttls()

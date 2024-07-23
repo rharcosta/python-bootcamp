@@ -1,12 +1,16 @@
 import smtplib
 import requests
 import time
+import os
+from dotenv import load_dotenv
 from datetime import datetime
 
+load_dotenv()
 my_lat = 42.055821
 my_long = 14.273472
-my_email = "t1838285@gmail.com"
-password = "kkhosqztttzpmlmx"
+my_email = os.environ["EMAIL"]
+password = os.environ["PASSWORD"]
+smtp_address = os.environ["SMTP_ADDRESS"]
 
 # ---------------------- CURRENT_LOCATION ---------------------- #
 # http://open-notify.org/Open-Notify-API/ISS-Location-Now/
@@ -56,10 +60,10 @@ def is_night():
 while True:
     time.sleep(60)
     if iss_overhead() and is_night():
-        with smtplib.SMTP("smtp.gmail.com") as connection:
+        with smtplib.SMTP(smtp_address) as connection:
             connection.starttls()
             connection.login(user=my_email, password=password)
             connection.sendmail(from_addr=my_email,
-                                to_addrs="rubia.arcanjo@hotmail.com",
+                                to_addrs=my_email,
                                 msg="Subject: Look up ☝️\n\nThe ISS is above you in the sky!"
                                 )

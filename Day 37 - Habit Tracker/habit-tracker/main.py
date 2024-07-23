@@ -1,9 +1,12 @@
 import requests
+import os
+from dotenv import load_dotenv
 from datetime import datetime
 # in browser = https://pixe.la/v1/users/rubia/graphs/graph1.html
 
-username = "rubia"
-token = "j3ru3984u2oSjWDJ+"
+load_dotenv()
+username = os.environ["USERNAME"]
+token = os.environ["TOKEN"]
 pixela_endpoint = "https://pixe.la/v1/users"
 graph_endpoint = f"{pixela_endpoint}/{username}/graphs"
 pixel_endpoint = f"{pixela_endpoint}/{username}/graphs/graph1"
