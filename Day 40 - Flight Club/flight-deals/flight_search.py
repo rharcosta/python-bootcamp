@@ -7,16 +7,15 @@ import requests
 from dotenv import load_dotenv
 
 load_dotenv()
-
+token_endpoint = "https://test.api.amadeus.com/v1/security/oauth2/token"
+iata_endpoint = "https://test.api.amadeus.com/v1/reference-data/locations/cities"
+flight_endpoint = "https://test.api.amadeus.com/v2/shopping/flight-offers"
 
 class FlightSearch:
 
     def __init__(self):
         self.api_key = os.environ["API_KEY"]
         self.api_secret = os.environ["API_SECRET"]
-        self.token_endpoint = os.environ["TOKEN_ENDPOINT"]
-        self.iata_endpoint = os.environ["IATA_ENDPOINT"]
-        self.flight_endpoint = os.environ["FLIGHT_ENDPOINT"]
         self.token = self.get_new_token()
 
     def get_new_token(self):
@@ -29,7 +28,7 @@ class FlightSearch:
             "client_id": self.api_key,
             "client_secret": self.api_secret,
         }
-        response = requests.post(url=self.token_endpoint, headers=header, data=body)
+        response = requests.post(url=token_endpoint, headers=header, data=body)
         token = response.json()
         print(f"Your token is {token['access_token']}.")
         print(f"Your token expires in {token['expires_in']} seconds.")
@@ -43,7 +42,7 @@ class FlightSearch:
             "max": "2",
             "include": "AIRPORTS",
         }
-        response = requests.get(url=self.iata_endpoint, headers=header, params=parameters)
+        response = requests.get(url=iata_endpoint, headers=header, params=parameters)
         print(f"Status Code: {response.status_code}. Airport IATA: {response.text}")
 
         try:
@@ -68,7 +67,7 @@ class FlightSearch:
             "currencyCode": "EUR",
             "max": "10",
         }
-        response = requests.get(url=self.flight_endpoint, headers=header, params=parameters)
+        response = requests.get(url=flight_endpoint, headers=header, params=parameters)
 
         if response.status_code != 200:
             print(f"check_flights() response code: {response.status_code}")
