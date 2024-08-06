@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- new code can be inserted in these blocks areas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- style without adding Bootstrap-Flask styling:
+     body {
+            background: #FFEEAD;
+        }
+    -->
+
+        {% block styles %}
+            {{ bootstrap.load_css() }}
+        {% endblock %}
+
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+    {% block content %} {% endblock %}
+</body>
+</html>

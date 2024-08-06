@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Login</title>
+</head>
+<body>
+    <!-- or it can be: action="{{url_for('receive_data')}}" -->
+    <form action="/login" method="post">
+        <label>Username:</label>
+        <input type="text" placeholder="username" name="username">
+
+        <label>Password:</label>
+        <input type="password" placeholder="password" name="password">
+
+        <button type="submit">Ok</button>
+    </form>
+</body>
+</html>
