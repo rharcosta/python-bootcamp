@@ -9,8 +9,6 @@ from flask_login import UserMixin, login_user, LoginManager, login_required, cur
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret-key-goes-here'
 
-# CREATE DATABASE
-
 
 class Base(DeclarativeBase):
     pass
