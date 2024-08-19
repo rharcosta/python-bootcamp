@@ -14,13 +14,13 @@ class AddForm(FlaskForm):
 class RegisterForm(FlaskForm):
     name = StringField("Name", validators=[DataRequired()])
     email = StringField("Email", validators=[DataRequired(), Email()])
-    password = PasswordField("Password", validators=[DataRequired()])
+    password = PasswordField("Password", validators=[DataRequired(), Length(min=8)])
     submit = SubmitField("Register")
 
 
 class LoginForm(FlaskForm):
     email = StringField("Email", validators=[DataRequired()])
-    password = PasswordField("Password", validators=[DataRequired(), Length(min=8)])
+    password = PasswordField("Password", validators=[DataRequired()])
     submit = SubmitField("Log In")
 
 
