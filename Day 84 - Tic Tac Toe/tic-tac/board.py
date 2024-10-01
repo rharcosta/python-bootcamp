@@ -1,5 +1,5 @@
 from tkinter import *
-from actions import Move
+from toegame import Move
 
 
 class TicTacToeBoard(Tk):
@@ -18,10 +18,7 @@ class TicTacToeBoard(Tk):
         menu_bar = Menu(master=self)
         self.config(menu=menu_bar)
         file_menu = Menu(master=menu_bar)
-        file_menu.add_command(
-            label="Play Again",
-            command=self.reset_board
-        )
+        file_menu.add_command(label="Play Again", command=self.reset_board)
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=quit)
         menu_bar.add_cascade(label="File", menu=file_menu)
@@ -31,12 +28,12 @@ class TicTacToeBoard(Tk):
         self._game.reset_game()
         self._update_display(msg="Are you ready?")
         for button in self._cells.keys():
-            button.config(highlightbackground="lightblue", fg="black")
+            button.config(highlightbackground="lightblue", text="", fg="black")
 
     def board_display(self):
         display_frame = Frame(master=self)  # create a frame object
         display_frame.pack(fill=X)  # geometry manager to place the frame
-        self.display = Label(master=display_frame, text="Ready?", font=("arial", 28, "bold"))
+        self.display = Label(master=display_frame, text="Are you ready?", font=("arial", 28, "bold"))
         self.display.pack()
 
     def board_grid(self):
@@ -85,4 +82,6 @@ class TicTacToeBoard(Tk):
             else:
                 self._game.toggle_player()
                 msg = f"{self._game.current_player.label}'s turn"
-                self._update_display(msg)
+                color = self._game.current_player.color
+                self._update_display(msg, color)
+
