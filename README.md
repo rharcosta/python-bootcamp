@@ -1,6 +1,6 @@
 # python-bootcamp
 
-Course of 100 Days of Python Development.
+Beginner, Intermediate and Advanced Python Projects.
 
 ## Table of Days, Classes and Projects
 
@@ -20,6 +20,7 @@ Course of 100 Days of Python Development.
 | Day 12 | Scope                                    | Number Guessing Game            |
 | Day 13 | Debugging Errors                         | Debugging Errors                |
 | Day 14 | Higher Lower Game                        | Higher Lower Game               |
+
 
 | Day    | Intermediate Class                       | Project                         |
 |--------|------------------------------------------|---------------------------------|
