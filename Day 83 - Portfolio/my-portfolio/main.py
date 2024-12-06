@@ -1,12 +1,11 @@
 import os
 from dotenv import load_dotenv
-from flask import Flask, render_template, redirect, url_for, flash
+from flask import Flask, render_template, redirect, url_for
 from flask_bootstrap import Bootstrap5
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy import Integer, String, Text
 from forms import AddForm
-from functools import wraps
 # python -m pip install -r requirements.txt
 
 load_dotenv()
@@ -27,9 +26,9 @@ db.init_app(app)
 class Portfolio(db.Model):
     __tablename__ = "project_posts"
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
-    title: Mapped[str] = mapped_column(String(250), nullable=False)
+    title: Mapped[str] = mapped_column(String(250), unique=True, nullable=False)
     body: Mapped[str] = mapped_column(Text, nullable=False)
-    img: Mapped[str] = mapped_column(String(250), nullable=False)
+    img_url: Mapped[str] = mapped_column(String(250), nullable=False)
 
 
 with app.app_context():
@@ -38,13 +37,14 @@ with app.app_context():
 
 @app.route("/", methods=["GET"])
 def home():
-    return render_template("index.html")
-
-
-@app.route("/projects", methods=["GET"])
-def show_projects():
     all_projects = db.session.execute(db.select(Portfolio)).scalars().all()
-    return render_template("project.html")
+    return render_template("index.html", all_projects=all_projects)
+
+
+@app.route("/project/<int:project_id>", methods=["GET", "POST"])
+def show_project(project_id):
+    project = db.session.execute(db.select(Portfolio).where(Portfolio.id == project_id)).scalar()
+    return render_template("project.html", project=project)
 
 
 @app.route("/new-project", methods=["GET", "POST"])
@@ -54,7 +54,7 @@ def new_project():
         new_data = Portfolio(
             title=form.title.data,
             body=form.body.data,
-            img=form.img.data,
+            img_url=form.img.data,
         )
         db.session.add(new_data)
         db.session.commit()
@@ -68,7 +68,7 @@ def update(project_id):
     edit_project = AddForm(
         title=project.title,
         body=project.body,
-        img=project.img,
+        img=project.img_url,
     )
     if edit_project.validate_on_submit():
         project.title = edit_project.title.data
@@ -76,7 +76,7 @@ def update(project_id):
         project.img = edit_project.img.data
         db.session.commit()
         return redirect(url_for("show_post", project_id=project_id))
-    return render_template("make-post.html", form=edit_project)
+    return render_template("make-post.html", form=edit_project, is_edit=True)
 
 
 @app.route("/delete/<int:project_id>")
@@ -98,4 +98,4 @@ def contact():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, port=5055)
