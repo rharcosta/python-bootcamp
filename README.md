@@ -1,11 +1,10 @@
 # python-bootcamp
 
-Course of 100 Days of Python Development.
-Beginner, Intermediate and Advanced Python Projects.
+🐍 Course of 100 Days of Python Development 👇
 
-## Table of Days, Classes and Projects
+# 🥉 BEGINNER LEVEL
 
-| Day    | Beginner Class                           | Project                         |
+| 📅 Days | 📚 Classes                              | 💻 Projects                   |
 |--------|------------------------------------------|---------------------------------|
 | Day 1  | Variables                                | Band Name Generator             |
 | Day 2  | DataTypes                                | Tip Calculator                  |
@@ -22,9 +21,9 @@ Beginner, Intermediate and Advanced Python Projects.
 | Day 13 | Debugging Errors                         | Debugging Errors                |
 | Day 14 | Higher Lower Game                        | Higher Lower Game               |
 
-<BR>
+# 🥈 INTERMEDIATE LEVEL
 
-| Day    | Intermediate Class                       | Project                         |
+| 📅 Days | 📚 Classes                             | 💻 Projects                    |
 |--------|------------------------------------------|---------------------------------|
 | Day 15 | Setup Local Environment                  | Coffee Machine                  |
 | Day 16 | Object Oriented Programming              | Coffee Machine 2.0              |
@@ -71,9 +70,9 @@ Beginner, Intermediate and Advanced Python Projects.
 | Day 57 | Templating with Jinja in Flask Apps      | Personal Blog                   |
 | Day 58 | Web Foundation                           | Bootstrap Application           |
 
-<BR>
+# 🥇 ADVANCED LEVEL
 
-| Day    | Advanced Class                           | Project                         |
+| 📅 Days | 📚 Classes                              | 💻 Projects                   |
 |--------|------------------------------------------|---------------------------------|
 | Day 59 |                            |            |
 | Day 60 |                            |            |
