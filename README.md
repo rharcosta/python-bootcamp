@@ -4,7 +4,7 @@ Course of 100 Days of Python Development.
 
 ## Table of Days, Classes and Projects
 
-| Day    | Class                                    | Project                         |
+| Day    | Beginner Class                           | Project                         |
 |--------|------------------------------------------|---------------------------------|
 | Day 1  | Variables                                | Band Name Generator             |
 | Day 2  | DataTypes                                | Tip Calculator                  |
@@ -20,13 +20,54 @@ Course of 100 Days of Python Development.
 | Day 12 | Scope                                    | Number Guessing Game            |
 | Day 13 | Debugging Errors                         | Debugging Errors                |
 | Day 14 | Higher Lower Game                        | Higher Lower Game               |
+
+| Day    | Intermediate Class                       | Project                         |
+|--------|------------------------------------------|---------------------------------|
 | Day 15 | Setup Local Environment                  | Coffee Machine                  |
 | Day 16 | Object Oriented Programming              | Coffee Machine 2.0              |
-| Day 17 | The benefits of OOP                      | The Quiz Project                |
+| Day 17 | The benefits of OOP                      | The Quiz Project Pt. 1          |
 | Day 18 | Turtle Graphics                          | Hirst Painting                  |
 | Day 19 | Instances, State & Higher Order          | Etch a Sketch                   |
 | Day 20 | Snake Game                               | Snake Game Pt. 1                |
 | Day 21 | Inheritance & List Slicing               | Snake Game Pt. 2                |
 | Day 22 | Build Pong                               | Pong: The Famous Arcade Game    |
 | Day 23 | Build The Turtle Crossing Capstone       | Turtle Crossing                 |
+| Day 24 | Files, Directories & Path                | Mail Merge & Snake Game Pt. 3   |
+| Day 25 | CSV Data and Pandas Library              | USA Game                        |
+| Day 26 | List Comprehension                       | Nato Alphabet                   |
+| Day 27 | Tkinter, *args, *kwargs & GUI Programs   | Mile to Kilometers Converter    |
+| Day 28 | Tkinter, Dynamic Typing                  | Pomodoro Application            |
+| Day 29 | GUI App with Tkinter                     | Password Manager Pt. 1          |
+| Day 30 | Errors, Exceptions & JSON Data           | Password Manager Pt. 2          |
+| Day 31 | Capstone Project                         | Flash Cards                     |
+| Day 32 | Send Email (smtplib) & Manage Dates      | Birthday Wisher                 |
+| Day 33 | API Endpoints & API Parameters           | Sun Tracker & Kanye Quotes      |
+| Day 34 | API Practice                             | The Quiz Project Pt. 2          |
+| Day 35 | Keys, Authentication & ENV               | Rain Alert SMS                  |
+| Day 36 | Stock Trading News                       | Stock Market                    |
+| Day 37 | API Post Requests & Headers              | Habit Tracker                   |
+| Day 38 | Google Sheets                            | Workout Tracker                 |
+| Day 39 | Capstone Pt. 1                           | Flight Deals Pt. 1              |
+| Day 40 | Capstone Pt. 2                           | Flight Deals Pt. 2              |
+| Day 41 | Introduction to HTML                     | Movie Ranking                   |
+| Day 42 | Intermediate HTML                        | Birthday Invite                 |
+| Day 43 | Introduction to CSS                      | Color Vocabulary                |
+| Day 44 | Intermediate CSS                         | Motivational Poster             |
+| Day 45 | Scraping with BeautifulSoup              | Top 100 Movies                  |
+| Day 46 | BeautifulSoup                            | Spotify Music Time Machine      |
+| Day 47 | BeautifulSoup                            | Amazon Price                    |
+| Day 48 | Selenium WebDriver Browser               | Cookies Game Bot                |
+| Day 49 | Selenium WebDriver Browser               | LinkedIn Vacancy Bot            |
+| Day 50 | Selenium WebDriver Browser               | Tinder Bot                      |
+| Day 51 | Selenium WebDriver Browser               | Speed Test Twitter Bot          |
+| Day 52 | Selenium WebDriver Browser               | Instagram Followers Bot         |
+| Day 53 |       blabla                             | Data Entry Job                  |
+| Day 54 | Web Development with Flask               | Introduction to Flask           |
+| Day 55 | HTML & URL Parsing in Flask              | Higher & Lower Game             |
+| Day 56 | Rendering HTML, Static Files & Web       | Card Name                       |
+| Day 57 | Templating with Jinja in Flask Apps      | Blog                            |
+| Day 58 | Web Foundation                           | Bootstrap Application           |
+
  
+| Day    | Advanced Class                           | Project                         |
+|--------|------------------------------------------|---------------------------------|
