@@ -8,13 +8,13 @@
 |--------|------------------------------------------|---------------------------------|
 | Day 1  | Variables                                | Band Name Generator             |
 | Day 2  | DataTypes                                | Tip Calculator                  |
-| Day 3  | Control Flow and Logical Operators       | Treasure Island Game            |
-| Day 4  | Randomisation and Python Lists           | Rock, Paper and Scissors Game   |
+| Day 3  | Control Flow & Logical Operators         | Treasure Island Game            |
+| Day 4  | Randomisation & Python Lists             | Rock, Paper & Scissors Game     |
 | Day 5  | Python Loops                             | Password Generator              |
 | Day 6  | Functions & Karel the robot              | Escaping the Maze               |
 | Day 7  | Hangman                                  | Hangman                         |
 | Day 8  | Function Parameters                      | Caesar Cipher                   |
-| Day 9  | Dictionaries and Nesting                 | Secret Auction Program          |
+| Day 9  | Dictionaries & Nesting                   | Secret Auction Program          |
 | Day 10 | Functions with Outputs                   | Calculator                      |
 | Day 11 | Blackjack Capstone Project               | Blackjack Capstone Project      |
 | Day 12 | Scope                                    | Number Guessing Game            |
@@ -35,7 +35,7 @@
 | Day 22 | Build Pong                               | Pong: The Famous Arcade Game    |
 | Day 23 | Build The Turtle Crossing Capstone       | Turtle Crossing                 |
 | Day 24 | Files, Directories & Path                | Mail Merge & Snake Game Pt. 3   |
-| Day 25 | CSV Data and Pandas Library              | USA Game                        |
+| Day 25 | CSV Data & Pandas Library                | USA Game                        |
 | Day 26 | List Comprehension                       | Nato Alphabet                   |
 | Day 27 | Tkinter, *args, *kwargs & GUI Programs   | Mile to Kilometers Converter    |
 | Day 28 | Tkinter, Dynamic Typing                  | Pomodoro Application            |
