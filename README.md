@@ -97,22 +97,22 @@
 | Day 79 | Plotly, Matplotlib & Seaborn             | Nobel Prize Analysis            |
 | Day 80 | T-Tests & Distribution                   | Handwashing Analysis            |
 | Day 81 | Capstone Project                         | Predict House Prices            |
-| Day 82 | Portfolio - Python Scripting             |            |
-| Day 83 | Portfolio - Web Development              |            |
-| Day 84 | Portfolio - Python Scripting             |            |
-| Day 85 | Portfolio - GUI                          |            |
-| Day 86 | Portfolio - GUI                          |            |
-| Day 87 | Portfolio - Game                         |            |
-| Day 88 | Portfolio - Web Development              |            |
-| Day 89 | Portfolio - Web Development              |            |
-| Day 90 | Portfolio - GUI Desktop App              |            |
-| Day 91 | Portfolio - HTTP Requests & APIs         |            |
-| Day 92 | Portfolio - Image Processing & Data Science                          |            |
-| Day 93 | Portfolio - Web Scraping                 |            |
-| Day 94 | Portfolio - GUI Automation               |            |
-| Day 95 | Portfolio - Game                         |            |
-| Day 96 | Portfolio - HTTP Requests & APIs         |            |
-| Day 97 | Portfolio - Web Development              |            |
-| Day 98 | Portfolio - Python Automation            |            |
-| Day 99 | Portfolio - Data Science                 |            |
-| Day 100 | Portfolio - Data Science                |            |
+| Day 82 | Portfolio - Python Scripting             | Text to Morse Code              |
+| Day 83 | Portfolio - Web Development              | Portfolio Website               |
+| Day 84 | Portfolio - Python Scripting             | Tic Tac Toe                     |
+| Day 85 | Portfolio - GUI                          | Image Watermarking Desktop App  |
+| Day 86 | Portfolio - GUI                          | Typing Speed Test               |
+| Day 87 | Portfolio - Game                         | Breakout Game                   |
+| Day 88 | Portfolio - Web Development              | Cafe & Wi-Fi Website            |
+| Day 89 | Portfolio - Web Development              | TODO List                       |
+| Day 90 | Portfolio - GUI Desktop App              | Disappearing Text Writing App   |
+| Day 91 | Portfolio - HTTP Requests & APIs         | Convert PDF to Audiobook        |
+| Day 92 | Portfolio - Image Processing             | Image Colour Palette Generator  |
+| Day 93 | Portfolio - Web Scraping                 | Custom Web Scraper              |
+| Day 94 | Portfolio - GUI Automation               | Automate Google Dinosaur Game   |
+| Day 95 | Portfolio - Game                         | Space Invaders                  |
+| Day 96 | Portfolio - HTTP Requests & APIs         | Custom API Based Website        |
+| Day 97 | Portfolio - Web Development              | Online Shop                     |
+| Day 98 | Portfolio - Python Automation            | Custom Automation               |
+| Day 99 | Portfolio - Data Science                 | Space Race Analysis             |
+| Day 100 | Portfolio - Data Science                | Police Deaths in the US Analysis|
