@@ -95,24 +95,24 @@
 | Day 77 | Numpy & N-Dimensional Arrays             | Manipulating Images             |
 | Day 78 | Linear Regression & Seaborn              | Cost Revenue Analysis           |
 | Day 79 | Plotly, Matplotlib & Seaborn             | Nobel Prize Analysis            |
-| Day 80 |                            |            |
-| Day 81 |                            |            |
-| Day 82 |                            |            |
-| Day 83 |                            |            |
-| Day 84 |                            |            |
-| Day 85 |                            |            |
-| Day 86 |                            |            |
-| Day 87 |                            |            |
-| Day 88 |                            |            |
-| Day 89 |                            |            |
-| Day 90 |                            |            |
-| Day 91 |                            |            |
-| Day 92 |                            |            |
-| Day 93 |                            |            |
-| Day 94 |                            |            |
-| Day 95 |                            |            |
-| Day 96 |                            |            |
-| Day 97 |                            |            |
-| Day 98 |                            |            |
-| Day 99 |                            |            |
-| Day 100 |                            |            |
+| Day 80 | T-Tests & Distribution                   | Handwashing Analysis            |
+| Day 81 | Capstone Project                         | Predict House Prices            |
+| Day 82 | Portfolio - Python Scripting             |            |
+| Day 83 | Portfolio - Web Development              |            |
+| Day 84 | Portfolio - Python Scripting             |            |
+| Day 85 | Portfolio - GUI                          |            |
+| Day 86 | Portfolio - GUI                          |            |
+| Day 87 | Portfolio - Game                         |            |
+| Day 88 | Portfolio - Web Development              |            |
+| Day 89 | Portfolio - Web Development              |            |
+| Day 90 | Portfolio - GUI Desktop App              |            |
+| Day 91 | Portfolio - HTTP Requests & APIs         |            |
+| Day 92 | Portfolio - Image Processing & Data Science                          |            |
+| Day 93 | Portfolio - Web Scraping                 |            |
+| Day 94 | Portfolio - GUI Automation               |            |
+| Day 95 | Portfolio - Game                         |            |
+| Day 96 | Portfolio - HTTP Requests & APIs         |            |
+| Day 97 | Portfolio - Web Development              |            |
+| Day 98 | Portfolio - Python Automation            |            |
+| Day 99 | Portfolio - Data Science                 |            |
+| Day 100 | Portfolio - Data Science                |            |
