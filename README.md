@@ -1,6 +1,7 @@
 # python-bootcamp
 
 Course of 100 Days of Python Development.
+Beginner, Intermediate and Advanced Python Projects.
 
 ## Table of Days, Classes and Projects
 
@@ -20,6 +21,8 @@ Course of 100 Days of Python Development.
 | Day 12 | Scope                                    | Number Guessing Game            |
 | Day 13 | Debugging Errors                         | Debugging Errors                |
 | Day 14 | Higher Lower Game                        | Higher Lower Game               |
+
+<BR>
 
 | Day    | Intermediate Class                       | Project                         |
 |--------|------------------------------------------|---------------------------------|
@@ -61,13 +64,56 @@ Course of 100 Days of Python Development.
 | Day 50 | Selenium WebDriver Browser               | Tinder Bot                      |
 | Day 51 | Selenium WebDriver Browser               | Speed Test Twitter Bot          |
 | Day 52 | Selenium WebDriver Browser               | Instagram Followers Bot         |
-| Day 53 |       blabla                             | Data Entry Job                  |
+| Day 53 | Web Scraping Capstone                    | Data Entry Job                  |
 | Day 54 | Web Development with Flask               | Introduction to Flask           |
 | Day 55 | HTML & URL Parsing in Flask              | Higher & Lower Game             |
 | Day 56 | Rendering HTML, Static Files & Web       | Card Name                       |
-| Day 57 | Templating with Jinja in Flask Apps      | Blog                            |
+| Day 57 | Templating with Jinja in Flask Apps      | Personal Blog                   |
 | Day 58 | Web Foundation                           | Bootstrap Application           |
 
- 
+<BR>
+
 | Day    | Advanced Class                           | Project                         |
 |--------|------------------------------------------|---------------------------------|
+| Day 59 |                            |            |
+| Day 60 |                            |            |
+| Day 61 |                            |            |
+| Day 62 |                            |            |
+| Day 63 |                            |            |
+| Day 64 |                            |            |
+| Day 65 |                            |            |
+| Day 66 |                            |            |
+| Day 67 |                            |            |
+| Day 68 |                            |            |
+| Day 69 |                            |            |
+| Day 70 |                            |            |
+| Day 71 |                            |            |
+| Day 72 |                            |            |
+| Day 73 |                            |            |
+| Day 74 |                            |            |
+| Day 75 |                            |            |
+| Day 76 |                            |            |
+| Day 77 |                            |            |
+| Day 78 |                            |            |
+| Day 79 |                            |            |
+| Day 80 |                            |            |
+| Day 81 |                            |            |
+| Day 82 |                            |            |
+| Day 83 |                            |            |
+| Day 84 |                            |            |
+| Day 85 |                            |            |
+| Day 86 |                            |            |
+| Day 87 |                            |            |
+| Day 88 |                            |            |
+| Day 89 |                            |            |
+| Day 90 |                            |            |
+| Day 91 |                            |            |
+| Day 92 |                            |            |
+| Day 93 |                            |            |
+| Day 94 |                            |            |
+| Day 95 |                            |            |
+| Day 96 |                            |            |
+| Day 97 |                            |            |
+| Day 98 |                            |            |
+| Day 99 |                            |            |
+| Day 100 |                            |            |
