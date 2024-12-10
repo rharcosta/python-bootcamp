@@ -74,27 +74,27 @@
 
 | 📅 Days | 📚 Classes                             | 💻 Projects                    |
 |--------|------------------------------------------|---------------------------------|
-| Day 59 | Blog Capstone Pt. 2                      | Styling Blog                    |
+| Day 59 | Blog Capstone Pt. 2 - Adding Styling     | Blog 2.0                        |
 | Day 60 | POST Request with Flask & HTML Forms     | Blog with Contact               |
 | Day 61 | Advanced Form with Flask-WTForms         | Login & Password                |
 | Day 62 | Flask, WTForms, Bootstrap & CSV          | Coffee & Wi-Fi                  |
 | Day 63 | DataBase with SQLite & SQLAlquemy        | Virtual Bookshelf               |
 | Day 64 | View, Edit, Add, Delete & Sort Data      | Top 10 Movies Website           |
 | Day 65 | Web Design School                        | User Experience (UX) Design     |
-| Day 66 |                            |            |
-| Day 67 |                            |            |
-| Day 68 |                            |            |
-| Day 69 |                            |            |
-| Day 70 |                            |            |
-| Day 71 |                            |            |
-| Day 72 |                            |            |
-| Day 73 |                            |            |
-| Day 74 |                            |            |
-| Day 75 |                            |            |
-| Day 76 |                            |            |
-| Day 77 |                            |            |
-| Day 78 |                            |            |
-| Day 79 |                            |            |
+| Day 66 | Own API with RESTful Routing             | Cafe Place                      |
+| Day 67 | Blog Capstone Pt. 3 - RESTful Routing    | Blog 3.0                        |
+| Day 68 | Authentication with Flaks                | Encryption, Hashing & Salting   |
+| Day 69 | Blog Capstone Pt. 4 - Adding Users       | Blog 4.0                        |
+| Day 70 | Git, GitHub & Version Control            | Git/GitHub Practing             |
+| Day 71 | Deploying Web Application                | Final Blog - PostgreSQL         |
+| Day 72 | Data Exploration with Pandas             | Major vs Salary Analysis        |
+| Day 73 | Data Visualization with Matplotlib       | Programming Languages Analysis  |
+| Day 74 | Aggregate & Merge Data with Pandas       | Lego Analysis                   |
+| Day 75 | Google Trends                            | Google Trends Analysis          |
+| Day 76 | Beautiful Plotly Charts                  | Android App Store Analysis      |
+| Day 77 | Numpy & N-Dimensional Arrays             | Manipulating Images             |
+| Day 78 | Linear Regression & Seaborn              | Cost Revenue Analysis           |
+| Day 79 | Plotly, Matplotlib & Seaborn             | Nobel Prize Analysis            |
 | Day 80 |                            |            |
 | Day 81 |                            |            |
 | Day 82 |                            |            |
