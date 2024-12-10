@@ -4,7 +4,7 @@
 
 # 🥉 BEGINNER LEVEL
 
-| 📅 Days | 📚 Classes                              | 💻 Projects                   |
+| 📅 Days | 📚 Classes                             | 💻 Projects                    |
 |--------|------------------------------------------|---------------------------------|
 | Day 1  | Variables                                | Band Name Generator             |
 | Day 2  | DataTypes                                | Tip Calculator                  |
@@ -72,15 +72,15 @@
 
 # 🥇 ADVANCED LEVEL
 
-| 📅 Days | 📚 Classes                              | 💻 Projects                   |
+| 📅 Days | 📚 Classes                             | 💻 Projects                    |
 |--------|------------------------------------------|---------------------------------|
-| Day 59 |                            |            |
-| Day 60 |                            |            |
-| Day 61 |                            |            |
-| Day 62 |                            |            |
-| Day 63 |                            |            |
-| Day 64 |                            |            |
-| Day 65 |                            |            |
+| Day 59 | Blog Capstone Pt. 2                      | Styling Blog                    |
+| Day 60 | POST Request with Flask & HTML Forms     | Blog with Contact               |
+| Day 61 | Advanced Form with Flask-WTForms         | Login & Password                |
+| Day 62 | Flask, WTForms, Bootstrap & CSV          | Coffee & Wi-Fi                  |
+| Day 63 | DataBase with SQLite & SQLAlquemy        | Virtual Bookshelf               |
+| Day 64 | View, Edit, Add, Delete & Sort Data      | Top 10 Movies Website           |
+| Day 65 | Web Design School                        | User Experience (UX) Design     |
 | Day 66 |                            |            |
 | Day 67 |                            |            |
 | Day 68 |                            |            |
